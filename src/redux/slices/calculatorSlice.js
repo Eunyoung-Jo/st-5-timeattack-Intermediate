@@ -17,6 +17,6 @@ export const calculatorSlice = createSlice({
     },
 });
 
-export const { add, sub} =calculatorSlice.actions;
+export const { add, sub } =calculatorSlice.actions;
 
 export default calculatorSlice.reducer;

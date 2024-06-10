@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 function App() {
   const [value, setValue] = useState(0);
   const result = useSelector((state) => state.calculator.result);
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
   
 
 
